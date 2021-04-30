@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet"> 
+</head>
+<body>
+    <h1 class="Title">Welcome to dhruvesh's Component Library</h1>
+    <hr>
+    <h2>Avatar</h2>
+    <img  class=" Avatar" src="images/lion.jpg" alt="Lion">
+    <img  class=" Avatar Avatar-small" src="images/lion.jpg" alt="Lion">
+    <img  class="Avatar Avatar-Medium" src="images/lion.jpg" alt="Lion">
+    <img  class="Avatar Avatar-Large" src="images/lion.jpg" alt="Lion">
+    <hr>
+    <h2>Badges</h2>
+   <div class="badge-container">
+    <img  class="Avatar Avatar-Medium warning" src="images/lion.jpg" alt="Lion"><span class="avatar-badge Secondary-Button">1</span>
+   </div>
+    <div class="badge-container">
+    <img  class=" Avatar Avatar-Medium warning" src="images/lion.jpg" alt="Lion"><span class="avatar-badge Primary-Button">1</span>
+    </div>
+    <h2>Badges with icon</h2>
+    <div class="badge-container">
+        <svg viewBox="0 0 24 24" class="icon">
+        <g>
+        <path
+        d="M21.697 16.468c-.02-.016-2.14-1.64-2.103-6.03.02-2.532-.812-4.782-2.347-6.335C15.872 2.71 14.01 1.94 12.005 1.93h-.013c-2.004.01-3.866.78-5.242 2.174-1.534 1.553-2.368 3.802-2.346 6.334.037 4.33-2.02 5.967-2.102 6.03-.26.193-.366.53-.265.838.102.308.39.515.712.515h4.92c.102 2.31 1.997 4.16 4.33 4.16s4.226-1.85 4.327-4.16h4.922c.322 0 .61-.206.71-.514.103-.307-.003-.645-.263-.838zM12 20.478c-1.505 0-2.73-1.177-2.828-2.658h5.656c-.1 1.48-1.323 2.66-2.828 2.66zM4.38 16.32c.74-1.132 1.548-3.028 1.524-5.896-.018-2.16.644-3.982 1.913-5.267C8.91 4.05 10.397 3.437 12 3.43c1.603.008 3.087.62 4.18 1.728 1.27 1.285 1.933 3.106 1.915 5.267-.024 2.868.785 4.765 1.525 5.896H4.38z">
+        </path>
+        </g>
+        </svg>
+        <span class="icon-badge Primary-Button ">5</span>
+    </div>
+    <div class="badge-container">
+    <svg viewBox="0 0 24 24" class="icon ">
+        <g>
+        <path
+        d="M12 11.816c1.355 0 2.872-.15 3.84-1.256.814-.93 1.078-2.368.806-4.392-.38-2.825-2.117-4.512-4.646-4.512S7.734 3.343 7.354 6.17c-.272 2.022-.008 3.46.806 4.39.968 1.107 2.485 1.256 3.84 1.256zM8.84 6.368c.162-1.2.787-3.212 3.16-3.212s2.998 2.013 3.16 3.212c.207 1.55.057 2.627-.45 3.205-.455.52-1.266.743-2.71.743s-2.255-.223-2.71-.743c-.507-.578-.657-1.656-.45-3.205zm11.44 12.868c-.877-3.526-4.282-5.99-8.28-5.99s-7.403 2.464-8.28 5.99c-.172.692-.028 1.4.395 1.94.408.52 1.04.82 1.733.82h12.304c.693 0 1.325-.3 1.733-.82.424-.54.567-1.247.394-1.94zm-1.576 1.016c-.126.16-.316.246-.552.246H5.848c-.235 0-.426-.085-.552-.246-.137-.174-.18-.412-.12-.654.71-2.855 3.517-4.85 6.824-4.85s6.114 1.994 6.824 4.85c.06.242.017.48-.12.654z">
+        </path>
+         </g>
+        </svg>
+    <span class="icon-badge Primary-Button">3</span>
+    </div>
+    <hr>
+    <h2>Buttons</h2>
+    <h3>Primary buttons</h3>
+    <button class="btn Primary-Button small">small button</button>
+    <button class="btn Primary-Button Medium">medium button</button>
+    <button class="btn Primary-Button Large">large button</button>
+    <h3>Secondary buttons</h3>
+    <button class="btn Secondary-Button small">small button</button>
+    <button class=" btn Secondary-Button Medium">medium button</button>
+    <button class="btn Secondary-Button Large">large button</button>
+    <hr>
+    <h3>Link Buttons</h3>
+    <a href="#link-btn" class="text-decoration-none link-btn small btn ">small Button</a>
+    <a href="#link-btn" class="text-decoration-none link-btn Medium btn ">medium Button</a>
+    <a href="#link-btn" class="text-decoration-none link-btn Large btn ">large Button</a>
+    <hr>
+    <h3>ICON Buttons</h3>
+    <button class="cart">
+        <svg aria-hidden="true" focusable="false" data-prefix="fas" 
+        data-icon="shopping-cart" class="svg-inline--fa fa-shopping-cart fa-w-18" 
+        role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+        <path fill="currentColor" d="M528.12 301.319l47.273-208C578.806 78.301 567.391 64 551.99 64H159.208l-9.166-44.81C147.758 8.021 137.93 0 126.529 0H24C10.745 0 0 10.745 0 24v16c0 13.255 10.745 24 24 24h69.883l70.248 343.435C147.325 417.1 136 435.222 136 456c0 30.928 25.072 56 56 56s56-25.072 56-56c0-15.674-6.447-29.835-16.824-40h209.647C430.447 426.165 424 440.326 424 456c0 30.928 25.072 56 56 56s56-25.072 56-56c0-22.172-12.888-41.332-31.579-50.405l5.517-24.276c3.413-15.018-8.002-29.319-23.403-29.319H218.117l-6.545-32h293.145c11.206 0 20.92-7.754 23.403-18.681z"></path></svg>
+        <span class="icon-badge Primary-Button ">5</span>
+        </button>
+        <button class="heart">
+        <svg aria-hidden="true" 
+        focusable="false" data-prefix="far" 
+        data-icon="heart" class="svg-inline--fa fa-heart fa-w-16"
+            role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+        <path fill="currentColor" d="M458.4 64.3C400.6 15.7 311.3 23 256 79.3 200.7 23 111.4 15.6 53.6 64.3-21.6 127.6-10.6 230.8 43 285.5l175.4 178.7c10 10.2 23.4 15.9 37.6 15.9 14.3 0 27.6-5.6 37.6-15.8L469 285.6c53.5-54.7 64.7-157.9-10.6-221.3zm-23.6 187.5L259.4 430.5c-2.4 2.4-4.4 2.4-6.8 0L77.2 251.8c-36.5-37.2-43.9-107.6 7.3-150.7 38.9-32.7 98.9-27.8 136.5 10.5l35 35.7 35-35.7c37.8-38.5 97.8-43.2 136.5-10.6 51.1 43.1 43.5 113.9 7.3 150.8z"></path></svg>
+        <span class="icon-badge Primary-Button ">5</span>
+        </button>
+    <button>
+    <svg viewBox="0 0 24 24" class="icon-button">
+    <g>
+     <path
+    d="M12 21.638h-.014C9.403 21.59 1.95 14.856 1.95 8.478c0-3.064 2.525-5.754 5.403-5.754 2.29 0 3.83 1.58 4.646 2.73.814-1.148 2.354-2.73 4.645-2.73 2.88 0 5.404 2.69 5.404 5.755 0 6.376-7.454 13.11-10.037 13.157H12zM7.354 4.225c-2.08 0-3.903 1.988-3.903 4.255 0 5.74 7.034 11.596 8.55 11.658 1.518-.062 8.55-5.917 8.55-11.658 0-2.267-1.823-4.255-3.903-4.255-2.528 0-3.94 2.936-3.952 2.965-.23.562-1.156.562-1.387 0-.014-.03-1.425-2.965-3.954-2.965z">
+    </path>
+</g>
+</svg>
+</button>
+<button>
+<svg viewBox="0 0 24 24" class="icon-button">
+    <g>
+     <path
+     d="M14.046 2.242l-4.148-.01h-.002c-4.374 0-7.8 3.427-7.8 7.802 0 4.098 3.186 7.206 7.465 7.37v3.828c0 .108.044.286.12.403.142.225.384.347.632.347.138 0 .277-.038.402-.118.264-.168 6.473-4.14 8.088-5.506 1.902-1.61 3.04-3.97 3.043-6.312v-.017c-.006-4.367-3.43-7.787-7.8-7.788zm3.787 12.972c-1.134.96-4.862 3.405-6.772 4.643V16.67c0-.414-.335-.75-.75-.75h-.396c-3.66 0-6.318-2.476-6.318-5.886 0-3.534 2.768-6.302 6.3-6.302l4.147.01h.002c3.532 0 6.3 2.766 6.302 6.296-.003 1.91-.942 3.844-2.514 5.176z">
+     </path>
+     </g>
+</svg>
+</button>
+<hr>
+<h3>Float Buttons</h3>
+<button class="float-button">+</button>
+<button class="float-button">-</button>
+<button class="float-button sm">+</button>
+<button class="float-button sm">-</button>
+<hr>
+<h2>Navigation Bar</h2>
+<nav class="Navigation-container">
+<header class="Navigation-header">Component Library</header>
+<ul class="Navigation-container nav-links">
+<li><a href="#" class="text-decoration-none link">Home</a></li>
+<li><a href="#" class="text-decoration-none link">Projects</a></li>
+<li><a href="#" class="text-decoration-none link">About</a></li>
+</ul>
+</nav>
+<hr>
+<h2>Cards</h2>
+<h3>Card with badges</h3>
+<div class="Card-container">
+<div class="Card">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce interdum elit vitae mi pellentesque, 
+    eget consectetur leo dapibus. Vivamus eu ante augue. Sed condimentum suscipit accumsan.
+      Nunc sollicitudin lacus eu blandit efficitur.
+    <span class="card-badge top-left">next</span>
+    </div>
+    <div class="Card">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce interdum elit vitae mi pellentesque, 
+        eget consectetur leo dapibus. Vivamus eu ante augue. Sed condimentum suscipit accumsan. 
+          Nunc sollicitudin lacus eu blandit efficitur.
+        <span class="card-badge bottom-right">next</span>
+        </div>
+        <div class="Card">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce interdum elit vitae mi pellentesque, 
+            eget consectetur leo dapibus. Vivamus eu ante augue. Sed condimentum suscipit accumsan.
+              Nunc sollicitudin lacus eu blandit efficitur.
+            <span class="card-badge bottom-center">next</span>
+            </div>
+            </div>
+            <hr>
+        <h3>Card with Dismiss</h3>
+        <div class="Card-container">
+        <div class="Card">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce interdum elit vitae mi pellentesque, 
+        eget consectetur leo dapibus. Vivamus eu ante augue. Sed condimentum suscipit accumsan.
+        Nunc sollicitudin lacus eu blandit efficitur.
+        <span class="card-badge top-left warning">X</span>
+        </div>
+        <div class="Card">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce interdum elit vitae mi pellentesque, 
+        eget consectetur leo dapibus. Vivamus eu ante augue. Sed condimentum suscipit accumsan. 
+        Nunc sollicitudin lacus eu blandit efficitur.
+        <span class="card-badge bottom-right warning">X</span>
+        </div>
+         </div>
+         <hr>
+        <h3>
+        Cards with text overlay 
+        </h3>
+        <div class="Card overlay-card">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.Fusce interdum elit vitae mi pellentesque, 
+        eget consectetur leo dapibus  Vivamus eu ante augue. Sed condimentum suscipit accumsan. 
+        Nunc sollicitudin lacus eu blandit efficitur.
+        <span class="text-overlay">There is some overlay text</span>
+        </div>
+        <hr>
+        <h3>Text only with cards</h3>
+        <div class="Card mid-width-card">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.Fusce interdum elit vitae mi pellentesque, 
+            eget consectetur leo dapibus  Vivamus eu ante augue. Sed condimentum suscipit accumsan. 
+            Nunc sollicitudin lacus eu blandit efficitur.
+        </div>
+        <div class="Card horizontal-card">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.Fusce interdum elit vitae mi pellentesque, 
+         eget consectetur leo dapibus  Vivamus eu ante augue. Sed condimentum suscipit accumsan. 
+         Nunc sollicitudin lacus eu blandit efficitur.
+        </div>
+        <hr>
+        <h3>Box with shadow</h3>
+        <div class="Card mid-width-card shadow">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.Fusce interdum elit vitae mi pellentesque, 
+        eget consectetur leo dapibus  Vivamus eu ante augue. Sed condimentum suscipit accumsan. 
+        Nunc sollicitudin lacus eu blandit efficitur.
+        </div>
+        <hr>
+        <h2>Images</h2>
+        <h3 class="center-text">Responsive images</h3>
+        <div class="align-center" >
+            <img class="img-fluid" src="https://www.pixelstalk.net/wp-content/uploads/2016/04/Golden-retriever-dogs-high-definition-wallpapers-620x349.jpg"
+                  alt="Dog">
+          </div>
+          <div class="align-center" >
+<img class="img-fluid img-horizontal " src="https://www.pixelstalk.net/wp-content/uploads/2016/04/Golden-retriever-dogs-high-definition-wallpapers-620x349.jpg"
+                  alt="Dog">
+          </div>
+        <hr>
+        <h3 class="center-text">Round image</h3>
+    <div class="align-center">
+            <img class="img-fluid  round sm-img"
+                src="https://www.pixelstalk.net/wp-content/uploads/2016/04/Golden-retriever-dogs-high-definition-wallpapers-620x349.jpg"
+                alt="dog">
+    </div>
+    <div class="align-center ">
+            <img class="img-fluid round md-img"
+                src="https://www.pixelstalk.net/wp-content/uploads/2016/04/Golden-retriever-dogs-high-definition-wallpapers-620x349.jpg"
+                alt="dog">
+     </div>
+        <div class="align-center ">
+        <img class="img-fluid round lg-img"
+         src="https://www.pixelstalk.net/wp-content/uploads/2016/04/Golden-retriever-dogs-high-definition-wallpapers-620x349.jpg"
+         alt="dog">
+    </div>
+    <hr>
+    <h2 class="align-center">Input</h2>
+    <div class="align-input-center">
+        <input placeholder="Enter your email here" class="input curve" type="email">
+        <div class="error-msg curve">The error message </div>
+        <input placeholder="Type your input here" class="input " type="text">
+    </div>
+    <hr>
+    <h2>List</h2>
+    <h3>Spaced list</h3>
+    <ul class="list  non-bullet">
+    <li class="spaced-list-item">
+     <p class="list-data">item 1</p>
+    </li>
+    <li class="spaced-list-item">
+    <p class="list-data">item 2</p>
+    </li>
+    <li class="spaced-list-item">
+    <p class="list-data">item 3</p>
+    </li>
+     <li class="spaced-list-item">
+    <p class="list-data">item 4</p>
+    </li>
+    </ul>
+    <h2>Stacked list</h2>
+    <ul class="list non-bullet">
+    <li class="stacked-list-item"><p>item 1</p></li>
+    <li class="stacked-list-item"><p>item 2</p></li>
+    <li class="stacked-list-item"><p>item 3</p></li>
+    <li class="stacked-list-item"><p>item 4</p></li>
+    </ul>
+    <hr>
+    <h2>Ratings</h2>
+    <!-- checked start -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg"
+class="rating-icon checked-icon" viewBox="0 0 32 32">
+<title>star-full</title>
+<path
+    d="M32 12.408l-11.056-1.607-4.944-10.018-4.944 10.018-11.056 1.607 8 7.798-1.889 11.011 9.889-5.199 9.889 5.199-1.889-11.011 8-7.798z">
+</path>
+</svg>
+<!-- unchecked star -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" class="rating-icon"
+viewBox="0 0 32 32">
+<title>star-empty</title>
+<path
+    d="M32 12.408l-11.056-1.607-4.944-10.018-4.944 10.018-11.056 1.607 8 7.798-1.889 11.011 9.889-5.199 9.889 5.199-1.889-11.011 8-7.798zM16 23.547l-6.983 3.671 1.334-7.776-5.65-5.507 7.808-1.134 3.492-7.075 3.492 7.075 7.807 1.134-5.65 5.507 1.334 7.776-6.983-3.671z">
+</path>
+</svg>
+<hr>
+<h2>Main Heading</h2>
+<p class="main-heading">The main Header </p>
+<p class="sub-heading">The sub header </p>
+<hr>
+<h2>Grey Text</h2>
+<p class="grey-text Large">The grey main Header</p>
+<p class="grey-text sub-heading">The grey sub header</p>
+<p class="grey-text small">The grey description </p>
+<p class="grey-text">The normal grey text</p>
+<p class="grey-text small">The small grey text</p>
+<hr>
+<h2>Center text</h2>
+<p class="Large align-center">The centered heading </p>
+<p class="sub-heading  align-center">The centered sub header</p>
+<p class="Medium align-center">The centered description </p>
+<p class="center align-center"> The centered normal text</p>
+<p class="small align-center">The centered small text</p>
+
+</body>
+</html>
