@@ -9,3 +9,9 @@ ModalBtn.addEventListener("click",()=>{
 ModalClose.addEventListener("click",()=>{
 ModalBg.classList.remove("modal-active")
 })
+
+function toggleSidebar()
+{
+  const sidebar=document.querySelector(".sidebar");
+  sidebar.classList.toggle("active")
+}
