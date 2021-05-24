@@ -564,7 +564,7 @@ max-width:100%;
   background-color:white;
   border:1px solid grey;
  height:100vh;
-  width:200px;
+  width:100px;
  position:fixed;
   
   top:0px;
@@ -578,11 +578,16 @@ max-width:100%;
 transition:transform 0.24s ease-out;
   padding:1rem;
 }
+.sidebar-container
+{
+    position:relative;
+    border:1px solid black;
+}
 .close
 {
   position:absolute;
-   top:0px;
-  left:0px;
+   top:0;
+  left:0;
 }
 .sidebar.active
 {
@@ -592,4 +597,9 @@ transition:transform 0.24s ease-out;
 .items
 {
   padding:1rem;
+}
+
+.items:hover
+{
+    color:red;
 }
