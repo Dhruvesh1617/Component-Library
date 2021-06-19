@@ -197,11 +197,7 @@ font-size: var(--font-size-1-2);
   border:1px solid var(--primary-button-color);
   color:var(--primary-button-color);
 }
-.link-btn:hover
-{
-    background-color: var(--primary-button-color);
-    color: var(--primary-font-color);
-}
+
 
 .text-decoration-none
 {
