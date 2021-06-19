@@ -197,7 +197,11 @@ font-size: var(--font-size-1-2);
   border:1px solid var(--primary-button-color);
   color:var(--primary-button-color);
 }
-
+.link-btn:hover
+{
+    background-color:var(--primary-button-color);
+    color:var(--primary-font-color);
+}
 
 .text-decoration-none
 {
@@ -310,6 +314,29 @@ height: 3rem;
     box-shadow:10px 10px 15px;
 }
 
+.card-div {
+    border: 1px solid white;
+    border-radius:0.5rem;
+    height: 20rem;
+    width: 16rem;
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:auto;
+    position: relative;
+  }
+  
+  
+  
+  .card-vertical{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    overflow: hidden;
+    align-items: center;
+    margin-top: 1rem;
+  }
 
 
 .text-overlay
