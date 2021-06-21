@@ -223,7 +223,7 @@ font-size: var(--font-size-1-2);
 }
 
 /*float button*/
-.float-button
+.action-button
 {
     width:var(--width-5);
     height:var(--height-4);
